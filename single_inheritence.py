@@ -24,5 +24,3 @@ book1 = Book("1984", "George Orwell")
 print(book1.display_book_details())
 issued_book1 = Issuebook("To Kill a Mockingbird", "Harper Lee", "Alice", "2024-06-15")
 print(issued_book1.display_issued_book_details())
-
-
