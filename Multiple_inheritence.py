@@ -13,8 +13,8 @@ class MusicPlayer:
 class SmartPhone(Camera,MusicPlayer):
     def __init__(self,brand,camera_quality,sound_quality):
         self.brand=brand
-        Camera.__init__(self, camera_quality)
-        MusicPlayer.__init__(self, sound_quality)
+        Camera.__init__(self, camera_quality)    #Inheritance order (MRO)
+        MusicPlayer.__init__(self, sound_quality)  #super() only calls the first parent class in the inheritance order.
 
     def display_smartphone_details(self):
         print("the brand is:",self.brand)
