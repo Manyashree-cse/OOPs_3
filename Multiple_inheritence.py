@@ -26,3 +26,10 @@ obj_smart_phone.display_smartphone_details()
 obj_smart_phone1=SmartPhone("manya","avg","good")
 obj_smart_phone1.display_music_details()
 obj_smart_phone1.display_camera_details()
+
+#git init
+#git add .
+#git commit -m "your message"
+#git branch main1
+#git checkout main1
+#git push -u origin main1
